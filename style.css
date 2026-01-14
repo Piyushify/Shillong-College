@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.1em;
+  
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+    background-color: white;
+}
+header {
+    position: static;
+    background-color: white;
+}
+header img {
+    
+}
+#topper {
+    height: 2em;
+    width: 100%;
+    background-color: blue;
+}
+#logo {
+}
+main {
+    padding-top: 10px;
+    min-height: 200vh;
+    background-color: white;
+    text-align: center;
+}
+main h2 {
+    font-family: "Jersey 10";
+}
+#usefullinks label {
+    display: block;
+    text-align: left;
+}
+#usefullinks {
+    list-style: none;
+}
+#usefullinks li {
+    padding: 0.5em;
+}
+#usefullinks a {
+    text-decoration: none;
+    color: white;
+}
+#quicklinks label {
+    display: block;
+    text-align: center;
+}
+#quicklinks {
+    list-style: none;
+}
+#quicklinks li {
+    padding-left: 0;
+}
+footer {
+    width: 100%;
+    background-color: #161C2D;
+    color: white;
+    padding: 1.5em;
+}
+#copyright {
+    padding: 1.5em;
+    font-family: "Jersey 10";
+    text-align: center;
+    border: 1px solid white;
+    font-size: 0.75em;
+}
